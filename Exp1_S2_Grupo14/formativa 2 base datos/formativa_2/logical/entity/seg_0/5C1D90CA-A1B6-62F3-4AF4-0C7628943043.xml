@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5C1D90CA-A1B6-62F3-4AF4-0C7628943043" name="VUELOS">
+<createdBy>Andrea</createdBy>
+<createdTime>2025-08-17 21:09:38 UTC</createdTime>
+<ownerDesignName>formativa_2</ownerDesignName>
+<engineerTo>
+<item key="C3350949-3BAC-F74F-E231-EDB38CAE08C7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="num_vuelo" id="5EFF689F-FC44-0003-AA38-F3C81206E801">
+<createdBy>Andrea</createdBy>
+<createdTime>2025-08-17 21:11:12 UTC</createdTime>
+<ownerDesignName>formativa_2</ownerDesignName>
+<engineerTo>
+<item key="C3350949-3BAC-F74F-E231-EDB38CAE08C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_despegue" id="BAAFDB28-F355-5A2A-9B9D-632C34DEF654">
+<createdBy>Andrea</createdBy>
+<createdTime>2025-08-17 21:10:10 UTC</createdTime>
+<ownerDesignName>formativa_2</ownerDesignName>
+<engineerTo>
+<item key="C3350949-3BAC-F74F-E231-EDB38CAE08C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_llegada" id="BA307D9A-BF1E-0233-7CF1-1A86786BAB5A">
+<createdBy>Andrea</createdBy>
+<createdTime>2025-08-17 21:10:41 UTC</createdTime>
+<ownerDesignName>formativa_2</ownerDesignName>
+<engineerTo>
+<item key="C3350949-3BAC-F74F-E231-EDB38CAE08C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_salida" id="8936530C-E724-8C00-F2B4-FEF16B15F41C">
+<createdBy>Andrea</createdBy>
+<createdTime>2025-08-17 21:10:54 UTC</createdTime>
+<ownerDesignName>formativa_2</ownerDesignName>
+<engineerTo>
+<item key="C3350949-3BAC-F74F-E231-EDB38CAE08C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aeropuerto_destino" id="B82B92C6-4812-E02E-A502-8498FE82CF66">
+<createdBy>Andrea</createdBy>
+<createdTime>2025-08-17 21:11:03 UTC</createdTime>
+<ownerDesignName>formativa_2</ownerDesignName>
+<engineerTo>
+<item key="C3350949-3BAC-F74F-E231-EDB38CAE08C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_unico" id="2D15A030-9064-C2F1-7661-6776C69F384C">
+<createdBy>esteb</createdBy>
+<createdTime>2025-08-24 00:31:38 UTC</createdTime>
+<generatorID>D84E0B0E-8A78-2E63-6665-2B2AA1A0D9A1</generatorID>
+<ownerDesignName>formativa_2</ownerDesignName>
+<engineerTo>
+<item key="C3350949-3BAC-F74F-E231-EDB38CAE08C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F74A3728-C7AA-C910-7EC4-FDBE60F2169A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad_origen" id="B1114731-D8E2-1588-2CA5-41F375A09798">
+<createdBy>esteb</createdBy>
+<createdTime>2025-08-24 00:51:52 UTC</createdTime>
+<ownerDesignName>formativa_2</ownerDesignName>
+<engineerTo>
+<item key="C3350949-3BAC-F74F-E231-EDB38CAE08C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad_destino" id="2F8C2D5E-D851-16AC-3D1F-338BDC3A326E">
+<createdBy>esteb</createdBy>
+<createdTime>2025-08-24 00:52:19 UTC</createdTime>
+<ownerDesignName>formativa_2</ownerDesignName>
+<engineerTo>
+<item key="C3350949-3BAC-F74F-E231-EDB38CAE08C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DDF6C35B-65EC-A540-7093-A025C128FC4B" name="VUELOS PK">
+<createdBy>Andrea</createdBy>
+<createdTime>2025-08-17 21:11:17 UTC</createdTime>
+<ownerDesignName>formativa_2</ownerDesignName>
+<engineerTo>
+<item key="C3350949-3BAC-F74F-E231-EDB38CAE08C7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5EFF689F-FC44-0003-AA38-F3C81206E801</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
